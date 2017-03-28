@@ -58,7 +58,7 @@ $(document).ready(function() {
             var distanceSquared = (dv * dv) + (dh * dh);
             var distance = Math.sqrt(distanceSquared);
 
-            if (distance < 75) {
+            if (distance < 110) {
               // window.dancers[i].isNervous = true;
               window.dancers[i].$node.removeClass('isCalm');
               window.dancers[i].$node.addClass('isNervous');

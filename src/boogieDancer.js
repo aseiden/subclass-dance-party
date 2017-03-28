@@ -1,5 +1,6 @@
 var BoogieDancer = function(top, left, timeBetweenSteps) {
   Dancer.call(this, top, left, timeBetweenSteps);
+  this.$node.addClass('boogieDancer');
 };
 
 BoogieDancer.prototype = Object.create(Dancer.prototype);

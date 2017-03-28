@@ -27,9 +27,23 @@ body, a:link, a:visited, a:active{
   position:absolute;
 }
 .isCalm{
-  border-color:lightskyblue;
-  background-color: lightskyblue;
+  background: url("./assets/mortyCalm.png") no-repeat;
+  background-size: 100%;
+  width: 70px;
+  height: 70px;
+  border: none;
 }
 .isNervous{
-  border-color: red;
+  border: none;
+  background: url("./assets/mortyNervous.png") no-repeat;
+  background-size: 100%;
+  width: 70px;
+  height: 75px;
+}
+.boogieDancer{
+  background: url("./assets/rick.gif") no-repeat;
+  background-size: 100%;
+  width: 70px;
+  height: 140px;
+  border: none;
 }

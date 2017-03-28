@@ -19,3 +19,6 @@ BlinkyDancer.prototype.step = function() {
   this.$node.toggle();
 };
 
+var makeBlinkyDancer = function(top, left, timeBetweenSteps) {
+  return new BlinkyDancer(top, left, timeBetweenSteps);
+};

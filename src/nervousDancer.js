@@ -26,13 +26,13 @@ NervousDancer.prototype.step = function() {
 
   } else {
     this.$node.animate({
-      marginTop: -15,
+      marginTop: '-=' + 15,
     }, (this.timeBetweenSteps / 2));
 
     setTimeout(function() {
       thisDancer.$node.animate(
       {
-        marginTop: +15,
+        marginTop: '+=' + 15,
       }, (thisDancer.timeBetweenSteps / 2));
     }, thisDancer.timeBetweenSteps / 2);
   }

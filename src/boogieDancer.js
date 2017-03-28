@@ -9,8 +9,8 @@ BoogieDancer.prototype.step = function() {
   Dancer.prototype.step.call(this);
   this.$node.show();
   this.$node.animate({
-    left: '+=' + (this.shift() + this.left),
-    top: '+=' + (this.shift() + this.top)
+    marginLeft: this.shift(),
+    marginTop: this.shift()
   }, this.timeBetweenSteps);
 };
 

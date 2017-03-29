@@ -73,6 +73,9 @@ $(document).ready(function() {
         //initiate subloop comparing nervous location to all other dancer locations (beside self)
           //if distance is less than x
             //set isNervous boolean to true, add class of isNervous
+  setInterval(function() {
+    $('body').css('background-color', 'rgb(' + ColorDancer.prototype.getRandColor() + ', ' + ColorDancer.prototype.getRandColor() + ', ' + ColorDancer.prototype.getRandColor() + ')');
+  }, 403);
 
 });
 
